@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top-article-main-box {
+  width: 95%;
+  box-shadow: 0px 5px 10px #0000000d;
+  margin: auto;
+  cursor: pointer;
+}
+.top-article-main-box hr {
+  border: none;
+  width: 100%;
+  height: 3px;
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.top-artile {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+.top-artile-img {
+  width: 110px;
+  height: 115px;
+  box-shadow: 0px 5px 10px #0000000d;
+  border-radius: 2px;
+  opacity: 1;
+}
+.top-article-img1 {
+  width: 110px;
+  height: 115px;
+  box-shadow: 0px 5px 10px #0000000d;
+  border-radius: 2px;
+  opacity: 1;
+}
+.top-artile-heading {
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  font-size: 23px;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.top-artile-navigation-date {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+.top-artile-navigation-1 {
+  width: 100%;
+  height: 20px;
+  text-align: left;
+  font-size: 17px Montserrat;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+.top-artile-navigation-2 {
+  width: 100%;
+  height: 15px;
+  text-align: left;
+  font: 17px Acumin Pro;
+  letter-spacing: 0.85px;
+  color: #404040;
+  opacity: 0.24;
+}
+
+@media (min-width:320px) and (max-width:480px){
+
+  .top-article-main-box {
+    width: 88%;
+    box-shadow: 0px 5px 10px #0000000d;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+
+    
+
+}

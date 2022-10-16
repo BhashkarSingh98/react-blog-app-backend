@@ -1,0 +1,24 @@
+.advertistement {
+  width: 95%;
+  height: 350px;
+  margin: auto;
+  text-align: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+.advertistement h1 {
+  font-size: 40px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 150px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .advertistement {
+    display: none;
+  }
+
+
+}
