@@ -4,10 +4,6 @@ import { Link } from "react-router-dom";
 import axios from 'axios'
 
 const Posts = () => {
-   
-
-
- 
     const[api, setApi] = useState([])
     const fetchData = async () => {
         try {
