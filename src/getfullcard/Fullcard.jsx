@@ -20,7 +20,7 @@ const Fullcard = () => {
       setApi(await fetchData());
     };
     apiFetch();
-  }, [api]);
+  }, []);
 
   return (
     <div className="fullcard-container">

@@ -17,7 +17,7 @@ const Tourismm = () => {
             setApi(await fetchData());
         };
         apiFetch();
-      }, [api]);
+      }, []);
   return (
     <>
       <div className="main-food-page">

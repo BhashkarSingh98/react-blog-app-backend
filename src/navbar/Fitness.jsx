@@ -17,7 +17,7 @@ const Fitness = () => {
           setApi(await fetchData());
       };
       apiFetch();
-    }, [api]);
+    }, []);
   
   return (
     <>

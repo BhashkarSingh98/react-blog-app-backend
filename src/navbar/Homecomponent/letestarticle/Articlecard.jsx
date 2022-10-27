@@ -16,7 +16,7 @@ const Articlecard = () => {
           setApi(await fetchData());
       };
       apiFetch();
-    }, [api]);
+    }, []);
   return (
     <>
       {api.map((elem) => {

@@ -19,7 +19,7 @@ const Food = () => {
             setApi(await fetchData());
         };
         apiFetch();
-      }, [api]);
+      }, []);
   return (
     <>
     
