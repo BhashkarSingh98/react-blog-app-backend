@@ -6,18 +6,32 @@ import axios from 'axios'
 
 const Fitness = () => {
   const[api, setApi] = useState([])
-  const fetchData = async () => {
-      try {
-        const response = await axios.get("https://node-react-blog-app.herokuapp.com/api/home");
-        return response.data;
-      } catch (error) {}
-    };
-    useEffect(() => {
-      const apiFetch = async () => {
-          setApi(await fetchData());
-      };
-      apiFetch();
-    }, []);
+
+  //using axios
+  useEffect(()=>{
+    axios.get("https://node-react-blog-app.herokuapp.com/api/home")
+    .then((res)=>
+    setApi(res.data)
+    )
+  },[])
+
+  //// using fetch
+
+  
+  // const fetchData = async () => {
+  //     try {
+  //       const response = await axios.get("https://node-react-blog-app.herokuapp.com/api/home");
+  //       return response.data;
+  //     } catch (error) {}
+  //   };
+  //   useEffect(() => {
+  //     const apiFetch = async () => {
+  //         setApi(await fetchData());
+  //     };
+  //     apiFetch();
+  //   }, []);
+
+
   
   return (
     <>
