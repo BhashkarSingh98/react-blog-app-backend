@@ -1,7 +1,7 @@
 import React from "react";
-import { useState,useEffect } from "react";
 import Advertistement from "./Homecomponent/advertistement/Advertistement";
 import { Link } from 'react-router-dom';
+import { useState,useEffect } from "react";
 import axios from 'axios'
 
 const Fitness = () => {
@@ -9,7 +9,7 @@ const Fitness = () => {
 
   //using axios
   useEffect(()=>{
-    axios.get("https://node-react-blog-app.herokuapp.com/api/home")
+    axios.get("https://sore-lime-abalone-gear.cyclic.app/api/data")
     .then((res)=>
     setApi(res.data)
     )

@@ -10,7 +10,7 @@ const Fullcard = () => {
 
   //using axios
   useEffect(()=>{
-    axios.get("https://node-react-blog-app.herokuapp.com/api/home")
+    axios.get("https://sore-lime-abalone-gear.cyclic.app/api/data")
     .then((res)=>
     setApi(res.data)
     )
